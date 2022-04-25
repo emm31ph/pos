@@ -378,6 +378,30 @@ class LookupSeeder extends Seeder
                 'fulltitle' => 'Security Bank',
                 'fulldesc' => 'Security Bank',
             ],
+            [
+                'code' => 'UOM00',
+                'lookup' => 'U00PK',
+                'fulltitle' => 'Pack',
+                'fulldesc' => 'Pack',
+            ],
+            [
+                'code' => 'UOM00',
+                'lookup' => 'U00CS',
+                'fulltitle' => 'Case',
+                'fulldesc' => 'Case',
+            ],
+            [
+                'code' => 'UOM00',
+                'lookup' => 'U0CTN',
+                'fulltitle' => 'Carton',
+                'fulldesc' => 'Carton',
+            ],
+            [
+                'code' => 'UOM00',
+                'lookup' => 'U00EA',
+                'fulltitle' => 'Each',
+                'fulldesc' => 'Each',
+            ],
 
         ];
 

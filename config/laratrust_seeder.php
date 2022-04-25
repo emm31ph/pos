@@ -18,7 +18,7 @@ return [
             'profile' => 'r,u',
             'branch' => 'r,u',
             'lookup' => 'r',
-            
+
         ],
         'administrator' => [
             'users' => 'c,r,u,d',
@@ -27,7 +27,8 @@ return [
             // 'profile' => 'r,u',
             'branch' => 'c,r,u,d',
             'employee' => 'c,r,u,d',
-            'lookup' => 'r',
+            'lookup' => 'r,u,d',
+            'items' => 'c,r,u,d',
         ],
         'user' => [
             'profile' => 'r,u',

@@ -29,11 +29,11 @@ export default {
         "General",
         [
           {
-            to: "/user",
-            label: "Payroll",
+            to: "/items",
+            label: "Items",
             icon: "fa-handshake",
             alt: "Payroll",
-            // access: this.can("users-access"),
+            access: this.can("items-access"),
           },
           {
             to: "/user",
@@ -107,8 +107,8 @@ export default {
     });
 
     this.$store.dispatch("Lookup/fetchLookup", {
-        trnmode: "fetchLookup",
-        trntype: "fetch",
+      trnmode: "fetchLookup",
+      trntype: "fetch",
     });
     var x = localStorage.getItem("branch");
 

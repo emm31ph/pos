@@ -64,10 +64,10 @@ class UserLookupSeeder extends Seeder
                 'fulldesc' => 'ATM lookup',
             ],
             [
-                'code' => 'TAX000',
-                'fulltitle' => 'Tax',
-                'link' => 'Tax',
-                'fulldesc' => 'Tax lookup',
+                'code' => 'UOM00',
+                'fulltitle' => 'Unit of Measurement (UOM) Codes',
+                'link' => 'uom',
+                'fulldesc' => 'Unit of Measurement (UOM) Codes',
             ],
         ];
 
