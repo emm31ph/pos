@@ -1,0 +1,9 @@
+export const FETCH_SIDEBAR = 'FETCH_SIDEBAR'
+export const FETCH_MENU_SUCCESS = 'FETCH_MENU_SUCCESS'
+export const UPDATE_MENU = 'UPDATE_MENU'
+
+export const UPDATE_MENUNAME = 'UPDATE_MENUNAME'
+
+
+
+export const UPDATE_DATA = 'UPDATE_DATA'

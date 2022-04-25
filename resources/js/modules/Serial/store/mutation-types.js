@@ -1,0 +1,9 @@
+// auth.js
+export const FETCH_SERIAL = 'FETCH_SERIAL'
+export const FETCH_SERIAL_SUCCESS = 'FETCH_SERIAL_SUCCESS'
+export const FETCH_SERIAL_FAILURE = 'FETCH_SERIAL_FAILURE'
+export const UPDATE_SERIAL = 'UPDATE_SERIAL'
+
+
+
+export const LOGOUT = 'LOGOUT'
